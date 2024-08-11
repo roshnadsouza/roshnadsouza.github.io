@@ -2,7 +2,7 @@ import Foundation
 import Ignite
 
 struct Home: StaticPage {
-    var title = "Home"
+    var title = "Roshna D'Souza"
 
     func body(context: PublishingContext) -> [BlockElement] {
         Text("""
@@ -10,6 +10,6 @@ struct Home: StaticPage {
                 I work on SwiftUI and UIKit for visionOS UIFramework team.
             """)
             .font(.title5)
-            .frame(width: 600)
+            .frame(width: 900)
     }
 }
