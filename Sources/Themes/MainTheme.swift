@@ -7,10 +7,9 @@ struct MyTheme: Theme {
             Head(for: page, in: context)
 
             Body {
-                let title = Text("Roshna D'Souza")
-                    .font(.title1)
-                    
-                NavigationBar(logo: title)
+                Spacer()
+                Spacer()
+                Spacer()
                 page.body
             }
         }

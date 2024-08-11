@@ -9,7 +9,7 @@ struct Home: StaticPage {
                 I am a Software Engineer at  Inc.\n
                 I work on SwiftUI and UIKit for visionOS UIFramework team.
             """)
-            .font(.title5)
+            .font(.body)
             .frame(width: 900)
     }
 }
